@@ -1,0 +1,42 @@
+body {
+    font-size: 15pt;
+}
+/*hero section*/
+ .tentang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0,1);
+  overflow: hidden;
+ }
+ 
+ .gambar {
+   flex: 1;
+ }
+  .gambar img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .teks {
+    flex: 1;
+    padding: 30px;
+  }
+  
+  .teks h2 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0,2);
+  }
+  
+  .teks p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+
